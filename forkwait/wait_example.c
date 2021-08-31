@@ -1,4 +1,4 @@
-/* This program explains about the working wait().
+/* This program explains about the working of wait() function..
  * wait(NULL) will block parent process until any of its children has finished.                                          * If child terminates before parent process reaches wait(NULL) then                                                     * the child process turns to a zombie process until its parent waits on it and its released from memory.
  *
  * Author : Abinash
