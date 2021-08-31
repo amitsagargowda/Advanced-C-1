@@ -15,6 +15,4 @@ moves to the out function.
 2. atexit_example2
 
 This program is as same as that of the previous program. Here we have static method which returns nothing.
-
-
-3.  
+  
