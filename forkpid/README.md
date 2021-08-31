@@ -13,4 +13,4 @@ in the second printf statement.
 
 3. multiple_forkpid
 
-In this program, it is explained that how the pid and ppid is executed in the each fork() system call.
+In this program, it is explained that how the pid and ppid is executed in the each fork() system call .
