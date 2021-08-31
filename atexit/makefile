@@ -9,5 +9,6 @@ atexit_example2 : atexit_example2.c
 multiple_atexit : multiple_atexit.c
 	gcc -g -O0 multiple_atexit multiple_atexit.c
 
+
 clean :
 	rm -rf *.o atexit_example.c atexit_example2 multiple_atexit
