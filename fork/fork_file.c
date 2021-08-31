@@ -1,4 +1,4 @@
-/* This program shows, a file is opened and read when it is in child process.
+/* This program shows, a file is opened and read when it is in child process in the fork() system call..
  *
  * Author : Abinash
  */ 
