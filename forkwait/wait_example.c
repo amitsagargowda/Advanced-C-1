@@ -18,5 +18,6 @@ int main()
 		cpid = wait(NULL); /* reaping parent */
 	printf("Parent pid = %d\n", getpid());
 	printf("Child pid = %d\n", cpid);
+
         return 0;
 }
