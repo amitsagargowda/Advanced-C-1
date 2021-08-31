@@ -16,6 +16,7 @@ void fork_example()
 	else
 		printf("From parent\n");
 }
+
 int main()
 {
 	fork_example();
