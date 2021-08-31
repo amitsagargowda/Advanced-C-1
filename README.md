@@ -19,4 +19,23 @@
 <td> Forkpid() </td>
 <td> Forkpid </td>
 <td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/forkpid"> code </a></td>
-</tr>                                           
+</tr> 
+
+<tr>
+<td> wait() </td>
+<td> Forkwait </td>
+<td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/forkwait"> code </a></td>
+</tr> 
+
+<tr>
+<td> File Operation </td>
+<td> file operation </td>
+<td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/fileoperation"> code </a></td>
+</tr> 
+
+<tr>
+<td> atexit() </td>
+<td> atexit </td>
+<td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/atexit"> code </a></td>
+</tr>
+</table>                                        
