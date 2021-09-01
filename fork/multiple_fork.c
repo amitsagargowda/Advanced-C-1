@@ -1,11 +1,15 @@
 /* This program shows how many times the "Hello" is printed
  *
+ * Email : abinashprabakaran@gmail.com
+ * Date : 31.08.2021
  * Author : Abinash
  */
 
-#include<stdio.h>
-#include<sys/types.h>
-#include<unistd.h>
+#include<stdio.h>	/* required for printf */
+#include<sys/types.h>	/* required for fork() */
+#include<unistd.h>	/* required for fork() */
+
+/* main program */
 
 int main()
 {
@@ -16,6 +20,6 @@ int main()
 	fork();
 	fork();
 	fork();
-	printf("Hello\n");
-	return 0;
+	printf("Hello\n");	/* Hello is printed 8 times */
+	return 0;		/* return 0 means program executed successfully */
 }
