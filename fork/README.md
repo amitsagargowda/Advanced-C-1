@@ -9,7 +9,8 @@
 2. multiple_fork.c - <td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/multiple_fork.c"> code </a></td>
 
 		In this program, it is explained about how many times a fork() system call is called. To know how many times a fork()
-		is called we can find by mathematical formula **2^n**. Here there are 3 fork() system calls, so 2^n = 2^3 = 8 times the 		printf statement is executed.
+		is called we can find by mathematical formula **2^n**. Here there are 3 fork() system calls, 
+		so 2^n = 2^3 = 8 times the printf statement is executed.
 		
 
 3. fork_child_parent.c - <td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/fork_child_parent.c"> code </a></td>
@@ -26,5 +27,7 @@
 
 5. fork_pid.c - <td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/fork_pid.c"> code </a></td>
 
-		In this program, it is explained that how is the process identification(pid) is found and executed.Fork returns the pid 		of the child process in the parent, and returns 0 in the child. If creation of a process was unsuccessful then it 
+		In this program, it is explained that how is the process identification(pid) is found and executed.
+		Fork returns the pid of the child process in the parent, and returns 0 in the child. 
+		If creation of a process was unsuccessful then it 
 		returns -1.  
