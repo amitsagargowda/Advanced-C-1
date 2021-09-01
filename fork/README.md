@@ -1,6 +1,4 @@
-1. sample_fork.c
-	
-<td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/sample_fork.c"> code </a></td>
+1. sample_fork.c	<td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/sample_fork.c"> |code| </a></td>
 
 In this program, a basic operation of fork() is explained. Fork() creates a new process by duplicating 
 the calling process. The new process is referred to as the Child process. The calling process is referred to
