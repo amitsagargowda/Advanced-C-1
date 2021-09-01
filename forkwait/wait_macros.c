@@ -15,8 +15,8 @@
 
 #include<stdio.h>	/* required for printf */
 #include<stdlib.h>	/* required for exit */
-#include<sys/wait.h>
-#include<unistd.h>
+#include<sys/wait.h>	/* required for wait */
+#include<unistd.h>	/* required for fork */
 
 void waitexample()
 {
