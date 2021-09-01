@@ -22,6 +22,5 @@ int main()
 	 * getppid function returns the process ID of the parent of the current process.
 	 */
 
-	printf("PID : %d  PPID : %d\n",getpid(),getppid());
-	while(1);
+	printf("PID : %d  PPID : %d\n",getpid(),getppid());  /* PID and PPId are printed 8 times */
 }
