@@ -11,7 +11,7 @@
 
 <tr>
 <td> Fork </td>
-<td> Fork creates a new process by duplicating teh existing process from which it is called. </td>
+<td> Fork creates a new process by duplicating the existing process from which it is called. </td>
 <td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/fork"> code </a></td>
 </tr>
 
