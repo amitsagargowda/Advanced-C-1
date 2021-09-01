@@ -36,7 +36,7 @@ file and closing the file can be done. </td>
 
 <tr>
 <td> atexit </td>
-<td> register a function to be called at normal process termination </td>
+<td> The atexit() function registers the given function to be called at normal process termination </td>
 <td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/atexit"> code </a></td>
 </tr>
 </table>                                        
