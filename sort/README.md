@@ -14,3 +14,9 @@
 		2nd iteration : 0-1, 1-2, 2-3
 		3rd iteration : 0-1, 1-2
 		4th iteration : 0-1
+
+**bubble_sort_user_input.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/bubble_sort_user_input.c">code</a> 
+
+		[ Refer the previous example ]
+		Compare the first element with the remaining elements in the list and exchange(swap) them if they are not in order.
+		Repeat the same for other elements in the list until all the elements gets sorted.
