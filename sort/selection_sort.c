@@ -1,3 +1,10 @@
+/* This program explains about selection sort
+ *
+ * Email : abinashprabakaran@gmail.com
+ * Date : 02.09.2021
+ * Author : Abinash
+ */
+
 #include<stdio.h>	/* required for printf, scanf */
 
 /* main program */
@@ -12,8 +19,10 @@ int main()
 	for(i=0; i<n; i++)
 		scanf("%d",&a[i]);
 	
+	/* one by one move boundary of unsorted array */	
 	for(i=0; i<n-1; i++)
 	{
+		/* find the minimum element in unsorted array */
 		position = i;
 		for(j=i+1; j<n ;j++)
 		{
@@ -21,6 +30,7 @@ int main()
 				position = j;
 		}
 		
+		/* swapping operation */
 		if(position != i)
 		{
 			temp = a[i];
@@ -31,7 +41,7 @@ int main()
 
 	printf("After sorting : ");
 	for(i=0; i<n; i++)
-		printf("%d ",a[i]);
+		printf("%d ",a[i]);	/* a[i] value printed after sorting */
 	printf("\n");
-	return 0;
+	return 0;			/* program executed successfully */
 }
