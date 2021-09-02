@@ -21,7 +21,7 @@ void out (void) 	/*programmer defined exit handler. It is called when program te
 int main (void) 
 { 
 	if (atexit(out))	/* Registering the exit handler using atexit(). */ 
-		fprintf(stderr, "atexit( ) failed!\n"); 
+		fprintf(stderr, "atexit( ) failed!\n"); 	/* prints on condtion failed */
 	
 	return 0; 	/* program exited successfully */
 } 
