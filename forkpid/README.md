@@ -1,8 +1,9 @@
 1. forkpid_example.c - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/forkpid/forkpid_example.c">code</a>
 
-		In this program, it is explained about getpid and getppid function.getpid() returns the process ID of the calling 
-		process. getppid() returns the process ID of the parent of the calling process. Here pid is assinged to fork(). 
-		When pid == 0 , it is in child process and when pid > 0,it is in parent process.
+		In this program, it is explained about getpid and getppid function.getpid() returns the process ID of
+		the calling process. getppid() returns the process ID of the parent of the calling process. 
+		Here pid is assinged to fork(). When pid == 0 , it is in child process and when pid > 0,
+		it is in parent process.
 
 
 2. forkpid_example1.c - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/forkpid/forkpid_example1.c">code</a> 
