@@ -39,4 +39,10 @@ file and closing the file can be done. </td>
 <td> The atexit() function registers the given function to be called at normal process termination </td>
 <td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/atexit"> code </a></td>
 </tr>
+
+<tr>          
+<td> Sort </td>     
+<td> Sorting is the process of arranging elements either in ascending (or) descending order  </td>
+<td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/forkwait"> code </a></td>                                      
+</tr>
 </table>                                        
