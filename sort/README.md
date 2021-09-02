@@ -20,3 +20,23 @@
 		[ Refer the previous example ]
 		Compare the first element with the remaining elements in the list and exchange(swap) them if they are not in order.
 		Repeat the same for other elements in the list until all the elements gets sorted.
+
+**selection_sort.c** - 
+
+		The selection sort algorithm sorts an array by repeatedly finding the minimum element from unsorted part and 
+		putting it at the beginning. The algorithm maintains two subarrays in a given array.
+			1) The subarray which is already sorted. 
+			2) Remaining subarray which is unsorted.
+		In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray 
+		is picked and moved to the sorted subarray. 
+
+		In selection sort, if there are 'n' no. of elements are there, then there will be 'n-1' iterations.
+		                                                                                                  
+                                         4    5    1    2    3   => elements    
+                                       ------------------------      
+                                        [0]  [1]  [2]  [3]  [4]  => array    
+ 
+                1st iteration : 0-1, 0-2, 0-3, 0-4    
+                2nd iteration : 1-1, 1-3, 1-4 
+                3rd iteration : 2-3, 2-4 
+                4th iteration : 3-4   
