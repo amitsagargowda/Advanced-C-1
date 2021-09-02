@@ -6,9 +6,9 @@
 		In bubble sort, if there are 'n' no. of elements are there, then there will be 'n-1' iterations. And 
 		for every sorting operations there will be adjacent elements will be compared in a proper way.
 
-					4    5    1    2    3	=> elements
+				   n	4    5    1    2    3	=> elements
 	                              ------------------------
-			               [0]  [1]  [2]  [3]  [4]	=> array
+			           a   [0]  [1]  [2]  [3]  [4]	=> array
 
 		1st iteration : 0-1, 1-2, 2-3, 3-4
 		2nd iteration : 0-1, 1-2, 2-3
@@ -32,9 +32,9 @@
 
 		In selection sort, if there are 'n' no. of elements are there, then there will be 'n-1' iterations.
 		                                                                                                  
-                                         4    5    1    2    3   => elements    
+                                     n  4    5    1    2    3   => elements    
                                        ------------------------      
-                                        [0]  [1]  [2]  [3]  [4]  => array    
+                                     a [0]  [1]  [2]  [3]  [4]  => array    
  
                 1st iteration : 0-1, 0-2, 0-3, 0-4    
                 2nd iteration : 1-1, 1-3, 1-4 
