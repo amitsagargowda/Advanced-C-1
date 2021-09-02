@@ -1,14 +1,11 @@
-all : atexit_example atexit_example2 multiple_atexit
+CC = gcc
 
-atexit_example : atexit_example.c
-	gcc -g -O0 -o atexit_example atexit_example.c
+FLAGS = -g -O0 -o
 
-atexit_example2 : atexit_example2.c     
-	gcc -g -O0 -o atexit_example2 atexit_example2.c 
+a.out : atexit_example atexit_example2 multiple_atexit
 
-multiple_atexit : multiple_atexit.c
-	gcc -g -O0 multiple_atexit multiple_atexit.c
-
+%.o : %.c
+	$(CC) $(FLAGS) $^
 
 clean :
-	rm -rf *.o atexit_example.c atexit_example2 multiple_atexit
+	rm -rf *.o out
