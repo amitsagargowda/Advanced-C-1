@@ -43,6 +43,6 @@ file and closing the file can be done. </td>
 <tr>          
 <td> Sort </td>     
 <td> Sorting is the process of arranging elements either in ascending (or) descending order  </td>
-<td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/forkwait"> code </a></td>                                      
+<td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/sort"> code </a></td>                                      
 </tr>
 </table>                                        
