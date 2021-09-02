@@ -21,7 +21,7 @@
 		Compare the first element with the remaining elements in the list and exchange(swap) them if they are not in order.
 		Repeat the same for other elements in the list until all the elements gets sorted.
 
-**selection_sort.c** - 
+**selection_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/selection_sort.c">code</a>
 
 		The selection sort algorithm sorts an array by repeatedly finding the minimum element from unsorted part and 
 		putting it at the beginning. The algorithm maintains two subarrays in a given array.
