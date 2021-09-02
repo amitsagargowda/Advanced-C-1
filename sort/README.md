@@ -1,4 +1,4 @@
-**bubble_sort.c**
+**bubble_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/bubble_sort.c">code</a>
 
 		It is a simple algorithm which is used to sort a given set of n elements provided in form of an 
 		array with 'n' no. of elements. It compares all the elements one by one and sort them based on their 
