@@ -32,7 +32,7 @@ int main()
 		return 0;
 	}
 	printf("File contents\n");
-	printf("%s\n",buff);	/* print file contents */
+	printf("%s\n",buff);				/* print file contents */
 	strcpy(buff,"testing_write_system_call");	/* new string is copied to buff */
 
 	/* writes up to count bytes from the buffer starting at buf to the file referred to by the file descriptor fd */
