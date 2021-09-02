@@ -21,8 +21,8 @@
 
 4. fork_file.c - <td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/fork_file.c"> code </a></td>
 
-		In this program, it is shown that how a file is opened and read in fork() system call. Here the text file is opened in
-		child process when fork() == 0.
+		In this program, it is shown that how a file is opened and read in fork() system call. Here the text 
+		file is opened in child process when fork() == 0.
 
 
 5. fork_pid.c - <td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/fork_pid.c"> code </a></td>
