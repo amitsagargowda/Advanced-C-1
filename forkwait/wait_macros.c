@@ -18,6 +18,12 @@
 #include<sys/wait.h>	/* required for wait */
 #include<unistd.h>	/* required for fork */
 
+/* Exit status is identified and printed
+ *
+ * @param[in] 
+ * @param[out] printf
+ */
+
 void waitexample()
 {
 	int stat;
