@@ -39,4 +39,23 @@
                 1st iteration : 0-1, 0-2, 0-3, 0-4    
                 2nd iteration : 1-1, 1-3, 1-4 
                 3rd iteration : 2-3, 2-4 
-                4th iteration : 3-4   
+                4th iteration : 3-4
+
+**insertion_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/insertion_sort.c">code</a>    
+
+		Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. 
+		The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed
+		at the correct position in the sorted part.
+
+		If we have the array as {40,10,50,70,30}
+		and we apply insertion sort to sort the array,
+		then the resultant array after each iteration will be as follows:
+
+               			Original array : 40  10  50  70  30
+
+		Array after first iteration is     10 ->  40    ->  50   ->   70   ->   30
+		Array after second iteration is    10 ->  40    ->  50   ->   70   ->   30
+		Array after third iteration is     10 ->  40    ->  50   ->   70   ->   30
+		Array after fourth iteration is    10 ->  30    ->  40   ->   50   ->   70
+            
+               			Sorted array :  10  30  40  50  70
