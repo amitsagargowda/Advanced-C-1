@@ -17,7 +17,7 @@ int main()
 	 * Execution of fork() can be found using the formula "2^n".
 	 * In this case, there are 3 fork() system calls so 2^3 = 8 times "Hello" is printed.
 	 */
-	fork();
+	fork();		/* fork() system call is declared 3 times */
 	fork();
 	fork();
 	printf("Hello\n");	/* Hello is printed 8 times */
