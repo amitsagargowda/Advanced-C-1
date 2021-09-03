@@ -1,5 +1,3 @@
-** fork **
-
 1. sample_fork.c - <a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/sample_fork.c"> code </a>
 
 		In this program, a basic operation of fork() is explained. Fork() creates a new process by duplicating 
@@ -10,7 +8,7 @@
 
 2. multiple_fork.c - <td><a href="https://github.com/abinashprabakar/Advanced-C/blob/main/fork/multiple_fork.c"> code </a></td>
 
-		In this program, it is explained about how many times a fork() system call is called. To know how many times a fork()
+		In this program, it is explained that how many times a fork() system call is called. To know how many times a fork()
 		is called we can find by mathematical formula **2^n**. Here there are 3 fork() system calls, 
 		so 2^n = 2^3 = 8 times the printf statement is executed.
 		
