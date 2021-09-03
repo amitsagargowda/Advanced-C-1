@@ -9,13 +9,23 @@
 #include<stdlib.h>	/* required for atexit */
 #include<unistd.h>	/* required for sleep */
 
-/* out1 function definition */
+/* Prints In out1 statement
+ *
+ * @param[in]
+ * @param[out] printf
+ */
+
 void out1(void) 		     /* programmer defined exit handler 1 */
 {
 	printf("In out1...\n");
 }
 
-/* out2 function definition */
+/* Prints In out2 statement
+ *
+ * @param[in]
+ * @param[out] printf
+ *
+ */
 void out2(void)                      /* programmer defined exit handler 2 */
 {
 	printf("in out2...\n");
