@@ -9,7 +9,12 @@
 #include<sys/types.h>   /* required for fork() */
 #include<unistd.h>	/* required for fork() */
 
-/* fork_example function */
+/* Prints parent and child process
+ *
+ * @param[in] fork
+ * @param[out] prints parent, child 
+ */
+
 void fork_example()	/* function definition  */
 {
 	/* Child process because return value zero */
