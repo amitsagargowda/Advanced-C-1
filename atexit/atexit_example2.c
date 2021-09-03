@@ -27,13 +27,23 @@ int main(void)
 	return(0);	/* program exited successfully */
 }
 
-/* exit1 function definition */
+/* prints first exit statement
+ * 
+ * @param[in]
+ * @param[out] printf
+ */
+
 static void my_exit1(void)
 {
 	printf("first exit handler\n");
 }
 
-/* exit2 function definition */
+/* prints second exit statement    
+ *
+ * @param[in]
+ * @param[out] printf
+ */
+
 static void my_exit2(void)
 {
 	printf("second exit handler\n");

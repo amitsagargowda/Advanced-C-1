@@ -10,7 +10,11 @@
 #include <stdio.h> 	/* required for printf, fprintf */
 #include <stdlib.h>	/* required for atexit */
  
-/* out function definition */
+/* Prints when atexit handler invoked
+ *
+ * @param[in]
+ * @param[out] printf
+ */
 
 void out (void) 	/*programmer defined exit handler. It is called when program terminated normally.*/
 { 
