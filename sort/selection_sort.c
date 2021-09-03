@@ -22,6 +22,7 @@ int main()
 	/* one by one move boundary of unsorted array */	
 	for(i=0; i<n-1; i++)
 	{
+
 		/* find the minimum element in unsorted array */
 		position = i;
 		for(j=i+1; j<n ;j++)
