@@ -17,6 +17,7 @@
 
 int main()
 {
+
 	pid_t pid;	/* The pid_t data type is a signed integer type which is capable of representing a process ID */
 	pid = fork();
 	
