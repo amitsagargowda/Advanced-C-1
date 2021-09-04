@@ -20,6 +20,7 @@ int main()
 		scanf("%d",&a[i]);
 	
 	/* one by one move boundary of unsorted array */	
+	
 	for(i=0; i<n-1; i++)
 	{
 
