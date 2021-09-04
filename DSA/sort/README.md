@@ -61,4 +61,20 @@
                			Sorted array :  10  30  40  50  70
 		[ The worst case for time complexity is O(n^2) and space complexity is O(1) ]
 
+
 **merge_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/sort/merge_sort.c">code</a>  
+
+		Merge sort is a sorting technique based on divide and conquer technique. With the worst-case time complexity 
+		being Ο(n log n), it is one of the most respected algorithms.
+
+					38  27  43  3  9  82  10
+divide
+				     38  27  43  3   |   9  82  10
+divde
+				   38  27  |  43  3  |   9  |   82  10
+conquer
+				   27  38  |   3  43  |  9  |   10  82
+conquer
+				   3  27  38  43   |    9  10  82
+
+combined				3 9 10 27 38 43 82
