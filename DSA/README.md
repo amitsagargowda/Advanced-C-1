@@ -10,7 +10,7 @@
 
 **Types of Data Structure**
 
-		We have two types of data structures:
+		There are two types of data structures:
 
 		1. Linear Data Structure
 		2. Non-linear Data Structure
