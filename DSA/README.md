@@ -33,7 +33,7 @@
 		Worst case   : In which we analyse the performance of an algorithm for the input, for which the algorithm takes long  
                                time or space.
 
-		Average case : In which we analyse the performance of an algorithm for the input, for which the algorithm takes less      
+		Average case : In which we analyse the performance of an algorithm for the input, for which the algorithm takes less 
 			       time or space.
 
 		[Note : Always use the worst case for solving problems]
