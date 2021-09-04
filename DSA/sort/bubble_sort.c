@@ -8,7 +8,6 @@
 #include<stdio.h>	/* required for printf */
 
 /* main program */
-
 int main()
 {
 	int a[] = {30, 50, 20, 10, 40};
