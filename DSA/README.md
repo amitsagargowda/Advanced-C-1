@@ -41,9 +41,9 @@
 
 **Types of DS Asymptotic Notation**
 
-		1. Big-O Notation (Ο) – Big O notation specifically describes worst case scenario.
-		2. Omega Notation (Ω) – Omega(Ω) notation specifically describes best case scenario.
-		3. Theta Notation (θ) – This notation represents the average complexity of an algorithm.
+		1. Big-O Notation (Ο) – Big O notation specifically describes worst case scenario [upper bound].
+		2. Omega Notation (Ω) – Omega(Ω) notation specifically describes best case scenario [lower bound].
+		3. Theta Notation (θ) – This notation represents the average complexity of an algorithm [both upper and lower bound].
 
 **sort** - <a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA/sort">directory</a>
 
