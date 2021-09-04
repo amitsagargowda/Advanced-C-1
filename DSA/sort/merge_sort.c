@@ -53,6 +53,7 @@ void merge(int a[], int low, int mid, int high)
 		a[k] = b[k];
 }
 
+/* main program*/
 int main()
 {
 	int a[20], n, i;
