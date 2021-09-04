@@ -44,3 +44,8 @@
 		1. Big-O Notation (Ο) – Big O notation specifically describes worst case scenario.
 		2. Omega Notation (Ω) – Omega(Ω) notation specifically describes best case scenario.
 		3. Theta Notation (θ) – This notation represents the average complexity of an algorithm.
+
+**sort** - <a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA/sort">folder</a>
+
+		Arranging the data in ascending or descending order is known as sorting. Many methods are used for sorting such as 
+		Insertion sort, Bubble sort, Selection Sort, Quick Sort, Merge Sort, Heap Sort, Radix Sort, Shell Sort, etc,.
