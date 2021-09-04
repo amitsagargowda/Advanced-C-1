@@ -40,12 +40,6 @@ file and closing the file can be done. </td>
 <td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/atexit"> code </a></td>
 </tr>
 
-<tr>          
-<td> Sort </td>     
-<td> Sorting is the process of arranging elements either in ascending (or) descending order  </td>
-<td><a href="https://github.com/abinashprabakar/Advanced-C/tree/main/sort"> code </a></td>                                      
-</tr>
-
 <tr>
 <td> Data Structure & Algorithm (DSA) </td>
 <td> A data structure is a special way of organizing and storing data in a computer so that it can be used efficiently.Array, LinkedList, Stack, Queue, Tree, Graph etc are all data structures that stores the data in a special way so that we can access and 
