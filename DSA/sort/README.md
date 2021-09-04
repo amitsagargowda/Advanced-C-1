@@ -59,4 +59,6 @@
 		Array after fourth iteration is    10 ->  30    ->  40   ->   50   ->   70
             
                			Sorted array :  10  30  40  50  70
-		[ The worst case for running time insertion sort is  O(n^2) ]
+		[ The worst case for time complexity is O(n^2) and space complexity is O(1) ]
+
+**merge_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/sort/merge_sort.c">code</a>  
