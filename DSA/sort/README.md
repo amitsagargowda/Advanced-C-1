@@ -59,3 +59,4 @@
 		Array after fourth iteration is    10 ->  30    ->  40   ->   50   ->   70
             
                			Sorted array :  10  30  40  50  70
+		[ The worst case for running time insertion sort is  O(n^2) ]
