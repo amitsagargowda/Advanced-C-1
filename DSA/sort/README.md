@@ -68,13 +68,13 @@
 		being Ο(n log n), it is one of the most respected algorithms.
 
 					38  27  43  3  9  82  10
-divide
+		divide
 				     38  27  43  3   |   9  82  10
-divde
+		divde
 				   38  27  |  43  3  |   9  |   82  10
-conquer
+		conquer
 				   27  38  |   3  43  |  9  |   10  82
-conquer
+		conquer
 				   3  27  38  43   |    9  10  82
 
-combined				3 9 10 27 38 43 82
+		combined		3 9 10 27 38 43 82
