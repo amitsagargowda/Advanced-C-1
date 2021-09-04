@@ -21,6 +21,12 @@
 
 #include<stdio.h>	/* required for printf, scanf */
 
+/* Merging the elements
+ *
+ * @param[in] mid, low, high
+ * @param[out] return 
+ */
+
 void merge_sort(int a[], int low, int high)
 {
 	int mid;
@@ -32,6 +38,11 @@ void merge_sort(int a[], int low, int high)
 	merge(a, low, mid, high);	/* Recursively, merge the two halves in a sorted manner, so that only one sorted array is left */
 }
 
+/* recursive merge operation
+ *
+ * @param[in] i, j, k, low, mid, high
+ * @param[out] 
+ */
 void merge(int a[], int low, int mid, int high)
 {
 	int b[20], i, j, k;
