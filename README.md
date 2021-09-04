@@ -50,5 +50,5 @@ file and closing the file can be done. </td>
 <td> Data Structure & Algorithm (DSA) </td>
 <td> A data structure is a special way of organizing and storing data in a computer so that it can be used efficiently.Array, LinkedList, Stack, Queue, Tree, Graph etc are all data structures that stores the data in a special way so that we can access and 
 use the data efficiently. </td>
-<td><a href "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA">directory</a></td>
+<td><a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA">directory</a></td>
 </table>                                        
