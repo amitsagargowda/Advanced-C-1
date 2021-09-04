@@ -1,4 +1,4 @@
-**bubble_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/bubble_sort.c">code</a>
+**bubble_sort** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/sort/bubble_sort.c">code</a>
 
 		It is a simple algorithm which is used to sort a given set of n elements provided in form of an 
 		array with 'n' no. of elements. It compares all the elements one by one and sort them based on their 
@@ -15,13 +15,13 @@
 		3rd iteration : 0-1, 1-2
 		4th iteration : 0-1
 
-**bubble_sort_user_input.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/bubble_sort_user_input.c">code</a> 
+**bubble_sort_user_input.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/sort/bubble_sort_user_input.c">code</a> 
 
 		[ Refer the previous example ]
 		Compare the first element with the remaining elements in the list and exchange(swap) them if they are not in order.
 		Repeat the same for other elements in the list until all the elements gets sorted.
 
-**selection_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/selection_sort.c">code</a>
+**selection_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/sort/selection_sort.c">code</a>
 
 		The selection sort algorithm sorts an array by repeatedly finding the minimum element from unsorted part and 
 		putting it at the beginning. The algorithm maintains two subarrays in a given array.
@@ -41,7 +41,7 @@
                 3rd iteration : 2-3, 2-4 
                 4th iteration : 3-4
 
-**insertion_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/sort/insertion_sort.c">code</a>    
+**insertion_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/sort/insertion_sort.c">code</a>    
 
 		Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. 
 		The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed
