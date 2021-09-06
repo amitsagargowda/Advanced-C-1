@@ -1,3 +1,10 @@
+/* This program implements about the double linked list
+ *
+ * Email : abinashprabakaran@gmail.com
+ * Date : 06.09.2021
+ * Author : Abinash
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
