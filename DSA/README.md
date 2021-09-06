@@ -62,3 +62,10 @@
 		Searching Algorithms are designed to check for an element or retrieve an element from any data 
 		structure where it is stored. Some of the searching techniques are Linear search, binary search,
 		Interpolation search, Hash table etc,.
+
+
+**tree** - <a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA/tree">directory</a>
+
+		A tree is a hierarchical data structure defined as a collection of nodes. Nodes represent value 
+		and nodes are connected by edges. Each node has one parent only but can have multiple children. 
+		Each node is connected to its children via edge
