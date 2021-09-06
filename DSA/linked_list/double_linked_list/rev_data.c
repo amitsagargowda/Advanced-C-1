@@ -1,4 +1,5 @@
 #include"header.c"
+
 void rev_data(ST *ptr)
 {
 	ST *p1,*p2,temp;

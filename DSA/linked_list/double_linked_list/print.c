@@ -1,4 +1,5 @@
 #include"header.c"
+
 void print(ST *ptr)
 {
 	if(ptr == 0) {

@@ -1,5 +1,6 @@
 
 #this is makefile
+
 outfile: main.o add_begin.o add_end.o print.o rev_print.o rev_data.o 
 	cc main.c add_begin.c add_end.c print.c rev_print.c rev_data.c
 

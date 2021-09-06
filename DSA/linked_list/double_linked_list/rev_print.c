@@ -1,4 +1,5 @@
 #include"header.c"
+
 void rev_print(ST *ptr)
 {
 	while(ptr->next != 0)
