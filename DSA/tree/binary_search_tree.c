@@ -116,7 +116,7 @@ void inorder(BSTNodePtr self)
 /*prints as left,right,root */
 void postorder(BSTNodePtr self)
 {
-	if(self)
+	if(self != NULL)
 	{
 		postorder(self->left);
 		postorder(self->right);
