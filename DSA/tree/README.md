@@ -1,4 +1,4 @@
-**binary_search_tree.c**
+**binary_search_tree.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/tree/binary_search_tree.c">code</a>
 
 		Binary Search tree can be defined as a class of binary trees, in which the nodes are arranged in a 
 		specific order. This is also called ordered binary tree.
@@ -10,7 +10,7 @@
 		the root.This rule will be recursively applied to all the left and right sub-trees of the root.
 
 
-**avl_tree.c**
+**avl_tree.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/tree/avl_tree.c">code</a>
 
 		AVL Tree is invented by GM Adelson - Velsky and EM Landis in 1962. The tree is named AVL in honour 
 		of its inventors.
