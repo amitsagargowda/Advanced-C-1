@@ -18,6 +18,8 @@
  *  	      y   T4 	  Right rotate        x    z
  *  	     / \	  ------------>      / \  / \
  *  	    x  T3			    T1 T2 T3 T4
+ *
+ * (b) right right case		(c) left right case		(d) right left case
  */
 
 #include<stdio.h>	
