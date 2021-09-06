@@ -32,6 +32,7 @@ void insert(int value)
 		arr[key] = value;
 		printf("%d inserted at arr[%d]\n",value,key);
 	}
+
 	else
 	{
 		printf("Collision : arr[%d] has element %d already ! \n",key,arr[key]);
