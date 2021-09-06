@@ -1,4 +1,4 @@
-**single_linked_list** - <a href = "">directory</a>
+**single_linked_list** - <a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA/linked_list/single_linked_list">directory</a>
 
 		A linked list is a sequence of data structures, which are connected together via links.
 
