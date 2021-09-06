@@ -49,3 +49,9 @@
 
 		Arranging the data in ascending or descending order is known as sorting. Many methods are used for sorting such as 
 		Insertion sort, Bubble sort, Selection Sort, Quick Sort, Merge Sort, Heap Sort, Radix Sort, Shell Sort, etc,.
+
+
+**linked_list** - <a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA/linked_list">directory</a>
+
+		 A linked list is a sequence of data structures, which are connected together via links. 
+		Linked List is a sequence of links which contains items. Each link contains a connection to another link
