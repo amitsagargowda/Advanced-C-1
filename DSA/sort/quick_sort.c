@@ -15,7 +15,7 @@ void quicksort(int number[25],int first,int last)
 		pivot = first;
 		i = first;
 		j = last;
-		while(i < j)	/* when firt number is less than last number swap the number */
+		while(i < j)	/* when first number is less than last number swap the number */
 		{
 			while(number[i] <= number[pivot] && i < last)
 				i++;
