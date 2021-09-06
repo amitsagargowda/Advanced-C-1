@@ -14,3 +14,7 @@
 
 		[Note :  Item navigation is forward only in single linked list.]
 
+**double_linked_list** - <a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA/linked_list/double_linked_list">directory</a> 
+
+		A group of nodes which are linked together with 2 links is called Double linked list. 
+
