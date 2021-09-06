@@ -49,9 +49,9 @@ int main()
 	for(i=0;i<count;i++)
 		scanf("%d",&number[i]);
 	quicksort(number,0,count-1);
-	printf("The Sorted Order is: ");
+	printf("The Sorted Order is:");
 	for(i=0;i<count;i++)
-		printf(" %d",number[i]);
+		printf("%d ",number[i]);
 	printf("\n");
 	return 0;
 }
