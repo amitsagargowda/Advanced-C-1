@@ -1,4 +1,4 @@
-**hash_table.c** - <a href = "">code</a>
+**hash_table.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/searching_techniques/hash_table.c">code</a>
 
 		Hashing is an efficient method to store and retrieve elements.
 
