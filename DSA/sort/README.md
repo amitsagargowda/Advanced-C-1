@@ -83,4 +83,6 @@
 **quick_sort.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/DSA/sort/quick_sort.c">code</a>
 
 		Quick sort is a highly efficient sorting algorithm and is based on partitioning of array of data into 
-		smaller arrays. A large array is partitioned into two arrays one of which holds values smaller than the 		specified value, say pivot, based on which the partition is made and another array holds values greater 		than the pivot value.
+		smaller arrays. A large array is partitioned into two arrays one of which holds values 
+		smaller than the specified value, say pivot, based on which the partition is made and another array 
+		holds values greater than the pivot value.
