@@ -55,3 +55,10 @@
 
 		 A linked list is a sequence of data structures, which are connected together via links. 
 		Linked List is a sequence of links which contains items. Each link contains a connection to another link
+
+
+**searching_techniques** - <a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA/searching_techniques">directory</a>
+
+		Searching Algorithms are designed to check for an element or retrieve an element from any data 
+		structure where it is stored. Some of the searching techniques are Linear search, binary search,
+		Interpolation search, Hash table etc,.
