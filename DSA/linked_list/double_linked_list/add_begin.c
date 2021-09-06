@@ -1,5 +1,4 @@
 #include"header.c"
-
 void add_begin(ST **ptr)
 {
     ST *temp;
