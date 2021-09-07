@@ -45,4 +45,9 @@ file and closing the file can be done. </td>
 <td> A data structure is a special way of organizing and storing data in a computer so that it can be used efficiently.Array, LinkedList, Stack, Queue, Tree, Graph etc are all data structures that stores the data in a special way so that we can access and 
 use the data efficiently. </td>
 <td><a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/DSA">directory</a></td>
+
+<tr>
+<td> InterProcess Communication (IPC) </td>
+<td> Inter Process Communication (IPC) refers to a mechanism, where the operating systems allow various processes to communicate with each other. This involves synchronizing their actions and managing shared data. </td>
+<td><a href = "https://github.com/abinashprabakar/Advanced-C/tree/main/IPC">directory</a></td>
 </table>                                        
