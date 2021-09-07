@@ -7,16 +7,16 @@
 		To achieve the pipe system call, create two files, one to write into the file and another to read 
 		from the file.
 
-**pipe_sample.c** - <a href = "">code</a>
+**pipe_sample.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/IPC/IPCPipe/pipe_sample.c">code</a>
 
 		This program contains basic example of pipe and its operation.
 
 
-**pipe_fork.c** - <a href = "">code</a>
+**pipe_fork.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/IPC/IPCPipe/pipe_fork.c">code</a>
 
 		This program contains how pipe is invoked with fork() system call.
 
 
-**pipe_file_open.c** - <a href = "">code</a>
+**pipe_file_open.c** - <a href = "https://github.com/abinashprabakar/Advanced-C/blob/main/IPC/IPCPipe/pipe_file_open.c">code</a>
 
 		This program contains how pipe() system call is opened in file.
