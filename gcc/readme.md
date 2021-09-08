@@ -53,7 +53,7 @@ Output : Value : 20
 
 ```
 
-2. **_-include file_**
+**_2. -include file_**
 ```
 		Process file as if "#include "file"" appeared as the first line of the primary source file.  However, 
 		the first directory searched for file is the preprocessor's working directory instead of the directory 
@@ -78,4 +78,25 @@ Observation : If -include is not used, the following error occurs
 
 Output : Value : 20
 
-```	
+```
+
+3. **_-U name_**
+	
+```
+		Cancel any previous defintion of name, either built in or provided with a -D option.
+
+Eg :
+#include<stdio.h>
+int main()
+{
+	printf("Value is %d ",CONST);
+	return 0;
+}
+
+Compilation : gcc -o main main.c -D CONST = 20 -U CONST
+
+Observation : Even though CONST is declared as 20, -U option cancels the -D option and throws an error as,
+		main.c: In function ‘main’:   
+                main.c:4:22: error: ‘CONST’ undeclared (first use in this function)
+                    4 |  printf("Value : %d",CONST);      
+``` 
