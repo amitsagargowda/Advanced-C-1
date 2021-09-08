@@ -28,39 +28,74 @@
            			-fplugin-arg-name=arg -fdump-ada-spec[-slim]
            			-fada-spec-parent=unit  -fdump-go-spec=file
 
-
-		-pthreads : Define additional macros required for using the POSIX threads library.
-					**gcc -shared filename.c -o filename**
-
-		-pipe : use pipes rather than temparary files for communication between the variour stages of 
-			compilation.
-
-		-o opt : This will compile the source.c file but instead of giving default name hence executed 
-			 using ./opt, it will give output file as opt. -o is for output file option.
-					**gcc source.c -c option**
-
-		-Werror : This will compile the source and show the warning if any error is there in the program, 
-			  -W is for giving warnings.
-					**gcc source.c -Werror -o opt**
-
-		-Wall : This will check not only for errors but also for all kinds warning like unused variables 
-			errors, it is good practice to use this flag while compiling the code.
-					**gcc source.c -Wall -o opt**
-
-		-ggdb3 : This command give us permissions to debug the program using gdb which will be described 
-			 later, -g option is for debugging.
-					**gcc -ggdb3 source.c -Wall -o opt**
-
-		-lm : This command link math.h library to our source file, -l option is used for linking particular 
-		      library, for math.h we use -lm.
-					**gcc -Wall source.c -o opt -lm**
-
-		-std=c11 : This command will use the c11 version of standards for compiling the source.c program, 
-			   which allows to define variable under loop initializations also using newer standards 
-			   version is preferred.
-					**gcc -Wall -std=c11 source.c -o opt**
-
-		-c : This command compile the program and give the object file as output, which is used to make 
-		     libraries.
 		
-		-v : This option is used for the verbose purpose.
+**_1. -D name_**
+```
+		Predefine name as macro, with definition 1.
+
+Eg : 
+#include<stdio.h>
+int main()
+{
+	printf("Value : %d",CONST);	/* CONST value is declared in the program */
+	return 0;
+}		 
+
+Compilation : gcc -o main main.c -DCONST=20    /*  CONST value is declared as 20 during compilation time */
+
+Observation :  If -DCONST is not used, the following error occurs
+		error: ‘CONST’ undeclared (first use in this function)   
+                   4 |  printf("Value : %d",CONST);   
+                     |                      ^~~~~      
+               main.c:4:22: note: each undeclared identifier is reported only once for each function it appears in
+
+Output : Value : 20
+
+```
+
+**_2. -include file_**
+```
+		Process file as if "#include "file"" appeared as the first line of the primary source file.  However, 
+		the first directory searched for file is the preprocessor's working directory instead of the directory 
+		containing the main source file.  If not found there, it is searched for in the remainder of the 
+		"#include "..."" search chain as normal.
+Eg :
+
+/* header files are not included */
+int main()
+{
+	printf("Value : %d",CONST);
+	return 0;
+}
+
+Compilation : gcc -o main main.c -include stdio.h
+
+Observation : If -include is not used, the following error occurs
+		main.c: In function ‘main’: 
+                main.c:4:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration] 
+                    4 |  printf("Value : %d",CONST);    
+                      |  ^~~~~~  
+
+Output : Value : 20
+
+```
+
+**_3. -U name_**	
+```
+		Cancel any previous defintion of name, either built in or provided with a -D option.
+
+Eg :
+#include<stdio.h>
+int main()
+{
+	printf("Value is %d ",CONST);
+	return 0;
+}
+
+Compilation : gcc -o main main.c -D CONST = 20 -U CONST
+
+Observation : Even though CONST is declared as 20, -U option cancels the -D option and throws an error as,
+		main.c: In function ‘main’:   
+                main.c:4:22: error: ‘CONST’ undeclared (first use in this function)
+                    4 |  printf("Value : %d",CONST);      
+``` 
