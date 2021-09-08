@@ -1,5 +1,7 @@
 # Advanced-C
 
+![Abinash's github stats](https://github-readme-stats.vercel.app/api?username=abinashprabakar)
+
 <h2>Contents</h2>
 
 <table style = "width : 80%" border = "1px solid black"> 
