@@ -33,11 +33,11 @@
 ```
 			Predefine name as macro, with definition 1.
 
-		Eg : 
-		     #include<stdio.h>
-		     int main()
-		     {
-			printf("Value : %d",CONST);
-			return 0;
-		     }		 
+Eg : 
+#include<stdio.h>
+int main()
+{
+	printf("Value : %d",CONST);
+	return 0;
+}		 
 ```
