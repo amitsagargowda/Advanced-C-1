@@ -41,5 +41,5 @@ int main()
 	return 0;
 }		 
 
-**Compilation :**  _gcc -o main main.c -DCONST=20_    /*  CONST value is declared as 20 during compilation time */
+Compilation : gcc -o main main.c -DCONST=20    /*  CONST value is declared as 20 during compilation time */
 ```
