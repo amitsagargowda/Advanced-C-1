@@ -29,7 +29,7 @@
            			-fada-spec-parent=unit  -fdump-go-spec=file
 
 		
-1. -D name
+1. **_-D name_**
 ```
 			Predefine name as macro, with definition 1.
 
