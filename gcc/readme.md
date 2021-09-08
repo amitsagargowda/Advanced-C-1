@@ -31,13 +31,15 @@
 		
 1. **_-D name_**
 ```
-			Predefine name as macro, with definition 1.
+		Predefine name as macro, with definition 1.
 
 Eg : 
 #include<stdio.h>
 int main()
 {
-	printf("Value : %d",CONST);
+	printf("Value : %d",CONST);	/* CONST value is declared in the program */
 	return 0;
 }		 
+
+**Compilation :**  _gcc -o main main.c -DCONST=20_    /*  CONST value is declared as 20 during compilation time */
 ```
