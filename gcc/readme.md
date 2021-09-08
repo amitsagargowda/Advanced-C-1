@@ -28,6 +28,19 @@
            			-fplugin-arg-name=arg -fdump-ada-spec[-slim]
            			-fada-spec-parent=unit  -fdump-go-spec=file
 
+		-include file : process file as if #include "file" appeared as the first line of the primary 
+				source code.
+		-D name : it will Predefine name as a macro, with definition 1.
+
+		-D name = definition : it will predefine name as macro and intialize with definition.
+
+		-shared : gcc -shared generates the shared object file for shared library.
+
+		-pthreads : Define additional macros required for using the POSIX threads library.
+					**gcc -shared filename.c -o filename**
+
+		-pipe : use pipes rather than temparary files for communication between the variour stages of 
+			compilation.
 
 		-o opt : This will compile the source.c file but instead of giving default name hence executed 
 			 using ./opt, it will give output file as opt. -o is for output file option.
