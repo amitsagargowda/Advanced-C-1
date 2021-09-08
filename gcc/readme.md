@@ -80,7 +80,7 @@ Output : Value : 20
 
 ```
 
-**_ 3. -U name_**	
+**_3. -U name_**	
 ```
 		Cancel any previous defintion of name, either built in or provided with a -D option.
 
