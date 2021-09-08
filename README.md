@@ -1,8 +1,5 @@
 # Advanced-C
 
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?abinashprabakar@gmail.com=jasongaylord&count_private=true&theme=tokyonight&showicons=true)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?abinashprabakar@gmail.com=jasongaylord&langs_count=5&theme=tokyonight)]()
-
 <h2>Contents</h2>
 
 <table style = "width : 80%" border = "1px solid black"> 
